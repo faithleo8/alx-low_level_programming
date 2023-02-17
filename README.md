@@ -1,1 +1,1 @@
-first hello world in C
+faiths work
