@@ -16,11 +16,11 @@ if (lastdigit > 5)
 { 
 printf("The last digit of %d is %d and is greater than 5", n, lastdigit);
 }
-else if (lastdigit == 0)
+if (lastdigit == 0)
 {
 printf("The last digit of %d is %d and is 0", n, lastdigit);
 }
-else
+if (lastdigit < 6 && lastdigit != 0) 
 {
 printf("The last digit of %d is %d and is less than 6 and not 0", n, lastdigit);
 }
