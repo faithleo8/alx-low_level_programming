@@ -12,8 +12,8 @@ x = 'a';
 while (x < 'z')
 {
 putchar(x);
-c++;
+x++;
 }
-putchar(\n);
+putchar("\n");
 return (0);
 }
