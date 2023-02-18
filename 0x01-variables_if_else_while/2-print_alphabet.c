@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-char x;
-x = 'a';
-while (x <= 'z')
-{
+int x;
+
+for (x = 'a'; x <= 'z'; x++);
+
 putchar(x);
-x++;
-}
-putchar("\n");
+
+putchar('\n');
+
 return (0);
 }
