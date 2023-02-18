@@ -7,10 +7,13 @@
  */
 int main(void)
 {
-int x;
-for (x = 'A'; x <= 'Z'; x++)
+char x;
+x = 'a';
+while (x < 'z')
+{
 putchar(x);
-for (x = 'a'; x <= 'z'; x++)
-putchar(x);
+c++;
+}
+putchar(\n);
 return (0);
 }
