@@ -28,4 +28,3 @@ new->next = (*head);
 
 return (*head);
 }
-i
