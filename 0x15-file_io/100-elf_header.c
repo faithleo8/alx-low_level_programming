@@ -172,7 +172,7 @@ printf("<unknown: %x>\n", e_ident[EI_OSABI]);
  */
 void print_abi(unsigned char *e_ident)
 {
-printf(" ABI Version: %d\n",e_ident[EI_ABIVERSION]);
+	printf(" ABI Version: %d\n", e_ident[EI_ABIVERSION]);
 }
 /**
  * print_type - Prints the type of an ELF header.
@@ -271,7 +271,7 @@ exit(98);
 }
 r = read(o, header, sizeof(Elf64_Ehdr));
 if (r == -1)
-{														
+{
 free(header);
 close_elf(o);
 dprintf(STDERR_FILENO, "Error: `%s`: No such file\n", argv[1]);
