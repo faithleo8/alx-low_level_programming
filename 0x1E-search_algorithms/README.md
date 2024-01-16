@@ -1,0 +1,1 @@
+General What is a search algorithm What is a linear search What is a binary search What is the best search algorithm to use depending on your needs Copyright - Plagiarism You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
